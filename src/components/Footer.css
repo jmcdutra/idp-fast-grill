@@ -1,0 +1,42 @@
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkorange);
+  width: 1920px;
+  height: 369.33px;
+}
+.vecteezy-restaurant-logo-food-icon {
+  position: absolute;
+  height: 46.57%;
+  width: 6.81%;
+  top: 14.44%;
+  right: 46.6%;
+  bottom: 38.99%;
+  left: 46.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fast-grill-,
+.footer,
+.todos-os-direitos {
+  position: absolute;
+  top: 242.67px;
+  left: 789.33px;
+}
+.footer,
+.todos-os-direitos {
+  top: 306.67px;
+  font-size: 18.67px;
+}
+.footer {
+  top: 3489.33px;
+  left: 0;
+  width: 1920px;
+  height: 369.33px;
+  text-align: center;
+  font-size: 42.67px;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
