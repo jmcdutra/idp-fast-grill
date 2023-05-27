@@ -5,6 +5,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home";
+import Unidade from "./pages/Unidade";
+import Cardpio from "./pages/Cardpio";
 import { useEffect } from "react";
 
 function App() {
@@ -27,6 +29,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/unidade":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/cardapio":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -46,6 +56,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/unidade" element={<Unidade />} />
+      <Route path="/cardapio" element={<Cardpio />} />
     </Routes>
   );
 }

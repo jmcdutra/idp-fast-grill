@@ -1,0 +1,188 @@
+.fluentbox-24-filled {
+  position: absolute;
+  top: 660px;
+  left: 44px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.footer,
+.unidade-child {
+  position: absolute;
+  top: 3875.33px;
+  left: 0;
+  width: 1920px;
+  height: 369.33px;
+}
+.unidade-child {
+  top: 304px;
+  left: 105px;
+  background-color: var(--color-gainsboro);
+  width: 117px;
+  height: 113px;
+}
+.unidade-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1279px;
+  object-fit: cover;
+}
+.group-item {
+  top: 0;
+  left: 0;
+  border-radius: 49.3px;
+  background-color: var(--color-white);
+}
+.group-item,
+.incio,
+.rectangle-group {
+  position: absolute;
+  width: 306.67px;
+  height: 69.02px;
+}
+.incio {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-group {
+  top: 113px;
+  left: 1369px;
+  cursor: pointer;
+  font-size: 29.58px;
+  color: var(--color-gray);
+}
+.solarstar-bold-duotone {
+  position: absolute;
+  top: 1057px;
+  left: 1833.01px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.vecteezy-restaurant-logo-food-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+}
+.aberto-at-as,
+.fastgrill-idp,
+.sgan-609-mdulo {
+  position: absolute;
+  top: 2px;
+  left: 159px;
+  display: inline-block;
+  width: 769.33px;
+}
+.aberto-at-as,
+.sgan-609-mdulo {
+  top: 50px;
+  width: 901px;
+}
+.aberto-at-as {
+  top: 95px;
+  left: 185px;
+  font-size: var(--font-size-5xl);
+}
+.frame-child {
+  position: absolute;
+  top: 104px;
+  left: 159px;
+  border-radius: 50%;
+  background-color: var(--color-limegreen);
+  width: 18px;
+  height: 18px;
+}
+.vecteezy-restaurant-logo-food-parent {
+  position: absolute;
+  top: 351px;
+  left: 244px;
+  width: 1086px;
+  height: 132px;
+  text-align: left;
+}
+.selecionar-unidade,
+.selecionar-unidade-wrapper {
+  width: 289px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selecionar-unidade {
+  position: relative;
+  height: 61px;
+  flex-shrink: 0;
+}
+.selecionar-unidade-wrapper {
+  position: absolute;
+  top: 387px;
+  left: 1387px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkorange);
+  flex-direction: column;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+}
+.frame-item {
+  position: absolute;
+  top: 104px;
+  left: 159px;
+  border-radius: 50%;
+  background-color: #e82e2e;
+  width: 18px;
+  height: 18px;
+}
+.vecteezy-restaurant-logo-food-group {
+  position: absolute;
+  top: 575px;
+  left: 244px;
+  width: 1086px;
+  height: 132px;
+  text-align: left;
+}
+.selecionar-unidade-container {
+  position: absolute;
+  top: 611px;
+  left: 1387px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkorange);
+  width: 289px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+}
+.vecteezy-restaurant-logo-food-icon2 {
+  position: absolute;
+  height: 12.72%;
+  width: 6.72%;
+  top: 4.29%;
+  right: 80.57%;
+  bottom: 82.98%;
+  left: 12.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.unidade {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1281px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

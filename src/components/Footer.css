@@ -1,12 +1,4 @@
-.footer-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-darkorange);
-  width: 1920px;
-  height: 369.33px;
-}
-.vecteezy-restaurant-logo-food-icon {
+.vecteezy-restaurant-logo-food-icon6 {
   position: absolute;
   height: 46.57%;
   width: 6.81%;
@@ -18,21 +10,22 @@
   overflow: hidden;
   max-height: 100%;
 }
-.fast-grill-,
-.footer,
-.todos-os-direitos {
+.fast-grill-1,
+.footer2,
+.todos-os-direitos1 {
   position: absolute;
   top: 242.67px;
   left: 789.33px;
 }
-.footer,
-.todos-os-direitos {
+.footer2,
+.todos-os-direitos1 {
   top: 306.67px;
   font-size: 18.67px;
 }
-.footer {
+.footer2 {
   top: 3489.33px;
   left: 0;
+  background-color: var(--color-darkorange);
   width: 1920px;
   height: 369.33px;
   text-align: center;

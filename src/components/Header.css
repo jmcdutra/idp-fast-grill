@@ -1,26 +1,18 @@
-.header-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-darkorange);
-  box-shadow: 0 5.333333492279053px 66.67px 13.33px rgba(0, 0, 0, 0.2);
-  width: 1920px;
-  height: 156px;
-}
-.cardpio,
-.home1 {
+.cardpio2,
+.home2 {
   position: absolute;
   top: 48px;
   left: 904px;
   display: inline-block;
   width: 126.67px;
 }
-.cardpio {
+.cardpio2 {
   left: 1089.33px;
   width: 213.33px;
+  cursor: pointer;
 }
 .header-item,
-.rea-do-cliente {
+.rea-do-cliente1 {
   position: absolute;
   top: 30.67px;
   left: 1468px;
@@ -31,15 +23,15 @@
   border-radius: 66.67px;
   background-color: var(--color-white);
 }
-.rea-do-cliente {
+.rea-do-cliente1 {
   font-weight: 500;
   color: var(--color-gray);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.vecteezy-restaurant-logo-food-icon1,
-.vector-icon1 {
+.vecteezy-restaurant-logo-food-icon7,
+.vector-icon4 {
   position: absolute;
   height: 69.23%;
   width: 4.44%;
@@ -51,7 +43,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.vector-icon1 {
+.vector-icon4 {
   height: 30.77%;
   width: 2.5%;
   top: 35.04%;
@@ -59,10 +51,12 @@
   bottom: 34.19%;
   left: 70.9%;
 }
-.header {
+.header1 {
   position: absolute;
   top: 0;
   left: 0;
+  background-color: var(--color-darkorange);
+  box-shadow: 0 5.333333492279053px 66.67px 13.33px rgba(0, 0, 0, 0.2);
   width: 1920px;
   height: 156px;
   text-align: center;
