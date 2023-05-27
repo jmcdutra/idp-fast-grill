@@ -6,12 +6,19 @@
     opacity: 1;
   }
 }
-.home-child {
+.home-child,
+.home-item {
   position: absolute;
   top: 0;
   left: 918px;
   width: 1999.73px;
   height: 1349.09px;
+}
+.home-item {
+  top: 2132px;
+  left: 0;
+  width: 780.03px;
+  height: 1240.6px;
 }
 .pedidos-direto-da {
   position: absolute;
@@ -37,11 +44,33 @@
   width: 754.67px;
   height: 205.33px;
 }
-.home-item {
+.group-inner {
+  top: 0;
+  left: 0;
+  border-radius: 66.67px;
+  background-color: var(--color-darkorange);
+}
+.fazer-pedido,
+.group-inner,
+.rectangle-container {
   position: absolute;
+  width: 273.33px;
+  height: 100px;
+}
+.fazer-pedido {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-container {
   top: 972px;
   left: 149.33px;
   cursor: pointer;
+  text-align: center;
+  color: var(--color-white);
 }
 .image-1-icon {
   position: absolute;
@@ -58,30 +87,30 @@
 .fure-filas-desnecessrias,
 .realizando-o-pedido {
   position: absolute;
-  left: 858.67px;
+  left: 952px;
   display: inline-block;
 }
 .fure-filas-desnecessrias {
-  top: 2378.67px;
+  top: 2380px;
   font-size: var(--font-size-61xl);
   font-weight: 500;
   color: var(--color-darkslategray);
   width: 769.33px;
 }
 .realizando-o-pedido {
-  top: 2672px;
+  top: 2673.33px;
   width: 677.33px;
   height: 184px;
 }
-.group-child35 {
+.group-child1 {
   top: 0;
   left: 0;
   border-radius: 66.67px;
   background-color: var(--color-darkorange);
 }
 .fazer-o-meu,
-.group-child35,
-.rectangle-parent22 {
+.group-child1,
+.rectangle-parent1 {
   position: absolute;
   width: 476px;
   height: 100px;
@@ -94,21 +123,14 @@
   align-items: center;
   justify-content: center;
 }
-.rectangle-parent22 {
-  top: 2973.33px;
-  left: 858.67px;
+.rectangle-parent1 {
+  top: 2974.67px;
+  left: 952px;
   text-align: center;
   color: var(--color-white);
 }
-.home-inner,
 .image-3-1 {
   position: absolute;
-  top: 2132px;
-  left: 0;
-  width: 780.03px;
-  height: 1240.6px;
-}
-.image-3-1 {
   top: 34.67px;
   left: 140px;
   width: 93.33px;
@@ -199,7 +221,7 @@
   height: 861.33px;
   object-fit: cover;
 }
-.home6 {
+.home1 {
   position: relative;
   background-color: var(--color-white);
   width: 100%;

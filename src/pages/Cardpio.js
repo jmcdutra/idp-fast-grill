@@ -13,18 +13,22 @@ const Cardpio = () => {
   }, [navigate]);
 
   const onVectorIcon1Click = useCallback(() => {
-    navigate("/pagamentoforma");
+    navigate("/");
+  }, [navigate]);
+
+  const onGroupContainer1Click = useCallback(() => {
+    navigate("/modal");
   }, [navigate]);
 
   return (
-    <div className="cardpio5">
-      <div className="fluentbox-24-filled6" />
-      <div className="footer6">
+    <div className="cardpio6">
+      <div className="fluentbox-24-filled7" />
+      <div className="footer7">
         <div className="vecteezy-restaurant-logo-food-container">
           <img
-            className="vecteezy-restaurant-logo-food-icon13"
+            className="vecteezy-restaurant-logo-food-icon15"
             alt=""
-            src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced7.svg"
+            src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced71.svg"
           />
           <b className="fast-grill-5">FAST GRILL - IDP</b>
           <div className="todos-os-direitos5">
@@ -34,498 +38,500 @@ const Cardpio = () => {
       </div>
       <div className="cardpio-child" />
       <div className="cardpio-inner">
-        <div className="rectangle-parent18" onClick={onGroupContainerClick}>
-          <div className="group-child34" />
-          <img className="vector-icon33" alt="" src="/vector21.svg" />
-          <div className="ver-outras-unidades">Ver outras unidades</div>
+        <div className="rectangle-parent30" onClick={onGroupContainerClick}>
+          <div className="group-child76" />
+          <img className="vector-icon22" alt="" src="/vector21.svg" />
+          <div className="ver-outras-unidades1">Ver outras unidades</div>
         </div>
       </div>
       <img
-        className="vecteezy-restaurant-logo-food-icon14"
+        className="vecteezy-restaurant-logo-food-icon16"
         alt=""
         src="/vecteezy-restaurantlogofoodlogo-5386195-2@2x.png"
       />
-      <div className="header5">
-        <div className="home5" onClick={onHomeTextClick}>
+      <div className="header6">
+        <div className="home7" onClick={onHomeTextClick}>
           Home
         </div>
-        <b className="cardpio6">Cardápio</b>
-        <div className="header-child8" />
-        <div className="rea-do-cliente5">Área do Cliente</div>
+        <b className="cardpio7">Cardápio</b>
+        <div className="header-child10" />
+        <div className="rea-do-cliente6">Área do Cliente</div>
         <img
-          className="vecteezy-restaurant-logo-food-icon15"
+          className="vecteezy-restaurant-logo-food-icon17"
           alt=""
           src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced8.svg"
         />
         <img
-          className="vector-icon34"
+          className="vector-icon23"
           alt=""
           src="/vector11.svg"
           onClick={onVectorIcon1Click}
         />
       </div>
       <div className="cardpio-item" />
-      <b className="fastgrill-idp2">FastGrill - IDP Asa Norte</b>
-      <div className="sgan-609-mdulo1">
+      <b className="fastgrill-idp3">FastGrill - IDP Asa Norte</b>
+      <div className="sgan-609-mdulo2">
         SGAN 609 Módulo A - Asa Norte, Brasília - DF, 70830-401
       </div>
-      <div className="pedidos-na-sua-container">
+      <div className="pedidos-na-sua-container1">
         <span>{`Pedidos na sua frente: `}</span>
         <b>#0004</b>
       </div>
-      <div className="tempo-mdio-de-container">
+      <div className="tempo-mdio-de-container1">
         <span>{`Tempo médio de espera: `}</span>
         <b>12 minutos</b>
       </div>
-      <b className="aberto-at-as1">Aberto até as 18:00hrs</b>
+      <b className="aberto-at-as2">Aberto até as 20:00hrs</b>
       <div className="cardpio-child1" />
-      <div className="categorias-parent">
-        <b className="categorias">CATEGORIAS</b>
-        <div className="sucos-tapioca">{`Sucos    |    Tapioca Salgada    |    Tapioca Doce |    Cuscuz    |     Crepe Salgado     |     Crepe Doce     |      Omelete      |     Pratos Executivos    `}</div>
+      <div className="categorias-group">
+        <b className="categorias1">CATEGORIAS</b>
+        <div className="sucos-tapioca1">{`Sucos    |    Tapioca Salgada    |    Tapioca Doce |    Cuscuz    |     Crepe Salgado     |     Crepe Doce     |      Omelete      |     Pratos Executivos    `}</div>
       </div>
       <div className="frame-div">
-        <div className="frame-inner" />
-        <img className="image-11-icon" alt="" src="/image-11@2x.png" />
-        <div className="peito-de-frango">Peito de Frango</div>
-        <b className="pratos-executivos">PRATOS EXECUTIVOS</b>
-        <div className="esse-t-no">
+        <div className="frame-child11" />
+        <img className="image-11-icon3" alt="" src="/image-11@2x.png" />
+        <div className="peito-de-frango9">Peito de Frango</div>
+        <b className="crepes">PRATOS EXECUTIVOS</b>
+        <div className="esse-t-no9">
           Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
           de pedir esse clássico né? Um irresistível filé de peito de frango
           grelhado e com aquele acompanhamento caprichado.
         </div>
-        <div className="frame-child1" />
-        <div className="adicionar-ao-carrinho">Adicionar ao Carrinho</div>
-        <div className="a-partir-de-container">
-          <span className="a-partir-de-container1">
+        <div className="rectangle-parent31" onClick={onGroupContainer1Click}>
+          <div className="group-child77" />
+          <div className="adicionar-ao-carrinho8">Adicionar ao Carrinho</div>
+        </div>
+        <div className="a-partir-de-container16">
+          <span className="a-partir-de-container17">
             <span>A partir de</span>
-            <span className="span">{` `}</span>
-            <span className="r-19901">R$ 19,90</span>
+            <span className="span8">{` `}</span>
+            <span className="r-19909">R$ 19,90</span>
           </span>
         </div>
         <div className="image-12-parent">
-          <img className="image-12-icon" alt="" src="/image-12@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon5" alt="" src="/image-12@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container2">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container18">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
-        <div className="frame-child3" />
-        <img className="image-11-icon1" alt="" src="/image-11@2x.png" />
-        <div className="peito-de-frango2">Peito de Frango</div>
-        <div className="esse-t-no2">
+        <div className="frame-child13" />
+        <img className="image-11-icon4" alt="" src="/image-11@2x.png" />
+        <div className="peito-de-frango11">Peito de Frango</div>
+        <div className="esse-t-no11">
           Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
           de pedir esse clássico né? Um irresistível filé de peito de frango
           grelhado e com aquele acompanhamento caprichado.
         </div>
-        <div className="frame-child4" />
-        <div className="adicionar-ao-carrinho2">Adicionar ao Carrinho</div>
-        <div className="a-partir-de-container4">
-          <span className="a-partir-de-container1">
+        <div className="frame-child14" />
+        <div className="adicionar-ao-carrinho10">Adicionar ao Carrinho</div>
+        <div className="a-partir-de-container20">
+          <span className="a-partir-de-container17">
             <span>A partir de</span>
-            <span className="span">{` `}</span>
-            <span className="r-19901">R$ 19,90</span>
+            <span className="span8">{` `}</span>
+            <span className="r-19909">R$ 19,90</span>
           </span>
         </div>
         <div className="image-12-group">
-          <img className="image-12-icon1" alt="" src="/image-12@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon6" alt="" src="/image-12@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container6">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container22">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
         <div className="image-12-container">
-          <img className="image-12-icon" alt="" src="/image-121@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon5" alt="" src="/image-121@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container2">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container18">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
       </div>
-      <div className="rectangle-parent19">
-        <div className="frame-inner" />
-        <img className="image-11-icon" alt="" src="/image-111@2x.png" />
-        <div className="peito-de-frango">Peito de Frango</div>
-        <b className="pratos-executivos">Crepes</b>
-        <div className="esse-t-no">
+      <div className="rectangle-parent32">
+        <div className="frame-child11" />
+        <img className="image-11-icon3" alt="" src="/image-111@2x.png" />
+        <div className="peito-de-frango9">Peito de Frango</div>
+        <b className="crepes">Crepes</b>
+        <div className="esse-t-no9">
           Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
           de pedir esse clássico né? Um irresistível filé de peito de frango
           grelhado e com aquele acompanhamento caprichado.
         </div>
-        <div className="frame-child1" />
-        <div className="adicionar-ao-carrinho">Adicionar ao Carrinho</div>
-        <div className="a-partir-de-container">
-          <span className="a-partir-de-container1">
+        <div className="frame-child18" />
+        <div className="adicionar-ao-carrinho13">Adicionar ao Carrinho</div>
+        <div className="a-partir-de-container16">
+          <span className="a-partir-de-container17">
             <span>A partir de</span>
-            <span className="span">{` `}</span>
-            <span className="r-19901">R$ 19,90</span>
+            <span className="span8">{` `}</span>
+            <span className="r-19909">R$ 19,90</span>
           </span>
         </div>
         <div className="image-12-parent">
-          <img className="image-12-icon" alt="" src="/image-122@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon5" alt="" src="/image-122@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container2">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container18">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
-        <div className="frame-child3" />
-        <img className="image-11-icon1" alt="" src="/image-111@2x.png" />
-        <div className="peito-de-frango2">Peito de Frango</div>
-        <div className="esse-t-no2">
+        <div className="frame-child13" />
+        <img className="image-11-icon4" alt="" src="/image-111@2x.png" />
+        <div className="peito-de-frango11">Peito de Frango</div>
+        <div className="esse-t-no11">
           Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
           de pedir esse clássico né? Um irresistível filé de peito de frango
           grelhado e com aquele acompanhamento caprichado.
         </div>
-        <div className="frame-child4" />
-        <div className="adicionar-ao-carrinho2">Adicionar ao Carrinho</div>
-        <div className="a-partir-de-container4">
-          <span className="a-partir-de-container1">
+        <div className="frame-child14" />
+        <div className="adicionar-ao-carrinho10">Adicionar ao Carrinho</div>
+        <div className="a-partir-de-container20">
+          <span className="a-partir-de-container17">
             <span>A partir de</span>
-            <span className="span">{` `}</span>
-            <span className="r-19901">R$ 19,90</span>
+            <span className="span8">{` `}</span>
+            <span className="r-19909">R$ 19,90</span>
           </span>
         </div>
         <div className="image-12-group">
-          <img className="image-12-icon1" alt="" src="/image-122@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon6" alt="" src="/image-122@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container6">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container22">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
         <div className="image-12-container">
-          <img className="image-12-icon" alt="" src="/image-123@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon5" alt="" src="/image-123@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container2">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container18">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
       </div>
-      <div className="rectangle-parent20">
-        <div className="frame-inner" />
-        <img className="image-11-icon" alt="" src="/image-11@2x.png" />
-        <div className="peito-de-frango">Peito de Frango</div>
-        <b className="pratos-executivos">Tapioca Salgada</b>
-        <div className="esse-t-no">
+      <div className="rectangle-parent33">
+        <div className="frame-child11" />
+        <img className="image-11-icon3" alt="" src="/image-11@2x.png" />
+        <div className="peito-de-frango9">Peito de Frango</div>
+        <b className="crepes">Tapioca Salgada</b>
+        <div className="esse-t-no9">
           Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
           de pedir esse clássico né? Um irresistível filé de peito de frango
           grelhado e com aquele acompanhamento caprichado.
         </div>
-        <div className="frame-child1" />
-        <div className="adicionar-ao-carrinho">Adicionar ao Carrinho</div>
-        <div className="a-partir-de-container">
-          <span className="a-partir-de-container1">
+        <div className="frame-child18" />
+        <div className="adicionar-ao-carrinho13">Adicionar ao Carrinho</div>
+        <div className="a-partir-de-container16">
+          <span className="a-partir-de-container17">
             <span>A partir de</span>
-            <span className="span">{` `}</span>
-            <span className="r-19901">R$ 19,90</span>
+            <span className="span8">{` `}</span>
+            <span className="r-19909">R$ 19,90</span>
           </span>
         </div>
         <div className="image-12-parent">
-          <img className="image-12-icon" alt="" src="/image-12@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon5" alt="" src="/image-12@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container2">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container18">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
-        <div className="frame-child3" />
-        <img className="image-11-icon1" alt="" src="/image-11@2x.png" />
-        <div className="peito-de-frango2">Peito de Frango</div>
-        <div className="esse-t-no2">
+        <div className="frame-child13" />
+        <img className="image-11-icon4" alt="" src="/image-11@2x.png" />
+        <div className="peito-de-frango11">Peito de Frango</div>
+        <div className="esse-t-no11">
           Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
           de pedir esse clássico né? Um irresistível filé de peito de frango
           grelhado e com aquele acompanhamento caprichado.
         </div>
-        <div className="frame-child4" />
-        <div className="adicionar-ao-carrinho2">Adicionar ao Carrinho</div>
-        <div className="a-partir-de-container4">
-          <span className="a-partir-de-container1">
+        <div className="frame-child14" />
+        <div className="adicionar-ao-carrinho10">Adicionar ao Carrinho</div>
+        <div className="a-partir-de-container20">
+          <span className="a-partir-de-container17">
             <span>A partir de</span>
-            <span className="span">{` `}</span>
-            <span className="r-19901">R$ 19,90</span>
+            <span className="span8">{` `}</span>
+            <span className="r-19909">R$ 19,90</span>
           </span>
         </div>
         <div className="image-12-group">
-          <img className="image-12-icon1" alt="" src="/image-12@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon6" alt="" src="/image-12@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container6">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container22">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
         <div className="image-12-parent6">
-          <img className="image-12-icon1" alt="" src="/image-11@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon6" alt="" src="/image-11@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container6">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container22">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
-        <div className="frame-child21" />
-        <img className="image-12-icon9" alt="" src="/image-11@2x.png" />
-        <div className="peito-de-frango15">Peito de Frango</div>
-        <div className="esse-t-no15">
+        <div className="frame-child31" />
+        <img className="image-12-icon14" alt="" src="/image-11@2x.png" />
+        <div className="peito-de-frango24">Peito de Frango</div>
+        <div className="esse-t-no24">
           Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
           de pedir esse clássico né? Um irresistível filé de peito de frango
           grelhado e com aquele acompanhamento caprichado.
         </div>
-        <div className="frame-child22" />
-        <div className="adicionar-ao-carrinho15">Adicionar ao Carrinho</div>
-        <div className="a-partir-de-container30">
-          <span className="a-partir-de-container1">
+        <div className="frame-child32" />
+        <div className="adicionar-ao-carrinho23">Adicionar ao Carrinho</div>
+        <div className="a-partir-de-container46">
+          <span className="a-partir-de-container17">
             <span>A partir de</span>
-            <span className="span">{` `}</span>
-            <span className="r-19901">R$ 19,90</span>
+            <span className="span8">{` `}</span>
+            <span className="r-19909">R$ 19,90</span>
           </span>
         </div>
         <div className="image-12-parent7">
-          <img className="image-12-icon1" alt="" src="/image-12@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon6" alt="" src="/image-12@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container6">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container22">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
         <div className="image-12-container">
-          <img className="image-12-icon" alt="" src="/image-121@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon5" alt="" src="/image-121@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container2">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container18">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
         <div className="peito-de-frango-parent">
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
           <img className="image-13-icon" alt="" src="/image-13@2x.png" />
-          <div className="a-partir-de-container36">
-            <span className="a-partir-de-container1">
+          <div className="a-partir-de-container52">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
       </div>
-      <div className="rectangle-parent21">
-        <div className="frame-child26" />
-        <img className="image-11-icon6" alt="" src="/image-111@2x.png" />
-        <div className="peito-de-frango19">Peito de Frango</div>
+      <div className="rectangle-parent34">
+        <div className="frame-child36" />
+        <img className="image-11-icon9" alt="" src="/image-111@2x.png" />
+        <div className="peito-de-frango28">Peito de Frango</div>
         <b className="tapioca-doce">Tapioca Doce</b>
-        <div className="esse-t-no19">
+        <div className="esse-t-no28">
           Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
           de pedir esse clássico né? Um irresistível filé de peito de frango
           grelhado e com aquele acompanhamento caprichado.
         </div>
-        <div className="frame-child27" />
-        <div className="adicionar-ao-carrinho19">Adicionar ao Carrinho</div>
-        <div className="a-partir-de-container38">
-          <span className="a-partir-de-container1">
+        <div className="frame-child37" />
+        <div className="adicionar-ao-carrinho27">Adicionar ao Carrinho</div>
+        <div className="a-partir-de-container54">
+          <span className="a-partir-de-container17">
             <span>A partir de</span>
-            <span className="span">{` `}</span>
-            <span className="r-19901">R$ 19,90</span>
+            <span className="span8">{` `}</span>
+            <span className="r-19909">R$ 19,90</span>
           </span>
         </div>
         <div className="image-12-parent9">
-          <img className="image-12-icon" alt="" src="/image-122@2x.png" />
-          <div className="peito-de-frango1">Peito de Frango</div>
-          <div className="esse-t-no1">
+          <img className="image-12-icon5" alt="" src="/image-122@2x.png" />
+          <div className="peito-de-frango10">Peito de Frango</div>
+          <div className="esse-t-no10">
             Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai deixar
             de pedir esse clássico né? Um irresistível filé de peito de frango
             grelhado e com aquele acompanhamento caprichado.
           </div>
-          <div className="frame-child2" />
-          <div className="adicionar-ao-carrinho1">Adicionar ao Carrinho</div>
-          <div className="a-partir-de-container2">
-            <span className="a-partir-de-container1">
+          <div className="frame-child12" />
+          <div className="adicionar-ao-carrinho9">Adicionar ao Carrinho</div>
+          <div className="a-partir-de-container18">
+            <span className="a-partir-de-container17">
               <span>A partir de</span>
-              <span className="span">{` `}</span>
-              <span className="r-19901">R$ 19,90</span>
+              <span className="span8">{` `}</span>
+              <span className="r-19909">R$ 19,90</span>
             </span>
           </div>
         </div>
       </div>
-      <img className="vector-icon35" alt="" src="/vector12.svg" />
-      <img className="vector-icon36" alt="" src="/vector13.svg" />
-      <div className="solarstar-bold-duotone-parent">
-        <div className="solarstar-bold-duotone6" />
-        <img className="group-icon3" alt="" src="/group1.svg" />
-        <div className="os-pratos-que">
+      <img className="vector-icon24" alt="" src="/vector12.svg" />
+      <img className="vector-icon25" alt="" src="/vector13.svg" />
+      <div className="solarstar-bold-duotone-group">
+        <div className="solarstar-bold-duotone7" />
+        <img className="group-icon4" alt="" src="/group1.svg" />
+        <div className="os-pratos-que1">
           Os pratos que estão fazendo sucesso entre nossos clientes hoje.
         </div>
-        <div className="recomendaes-dirias-parent">
+        <div className="recomendaes-dirias-group">
           <b className="tapioca-doce">Recomendações Diárias</b>
           <div className="image-11-parent">
-            <img className="image-12-icon" alt="" src="/image-11@2x.png" />
-            <div className="peito-de-frango1">Peito de Frango</div>
-            <div className="esse-t-no21">
+            <img className="image-12-icon5" alt="" src="/image-11@2x.png" />
+            <div className="peito-de-frango10">Peito de Frango</div>
+            <div className="esse-t-no30">
               Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai
               deixar de pedir esse clássico né? Um irresistível filé de peito de
               frango grelhado e com aquele acompanhamento caprichado.
             </div>
-            <div className="frame-child29" />
-            <div className="adicionar-ao-carrinho21">Adicionar ao Carrinho</div>
-            <div className="a-partir-de-container42">
-              <span className="a-partir-de-container1">
+            <div className="frame-child39" />
+            <div className="adicionar-ao-carrinho29">Adicionar ao Carrinho</div>
+            <div className="a-partir-de-container58">
+              <span className="a-partir-de-container17">
                 <span>A partir de</span>
-                <span className="span">{` `}</span>
-                <span className="r-199022">R$ 19,90</span>
+                <span className="span8">{` `}</span>
+                <span className="r-199030">R$ 19,90</span>
               </span>
             </div>
           </div>
           <div className="image-12-parent10">
-            <img className="image-12-icon" alt="" src="/image-124@2x.png" />
-            <div className="peito-de-frango1">Peito de Frango</div>
-            <div className="esse-t-no21">
+            <img className="image-12-icon5" alt="" src="/image-124@2x.png" />
+            <div className="peito-de-frango10">Peito de Frango</div>
+            <div className="esse-t-no30">
               Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai
               deixar de pedir esse clássico né? Um irresistível filé de peito de
               frango grelhado e com aquele acompanhamento caprichado.
             </div>
-            <div className="frame-child29" />
-            <div className="adicionar-ao-carrinho21">Adicionar ao Carrinho</div>
-            <div className="a-partir-de-container42">
-              <span className="a-partir-de-container1">
+            <div className="frame-child39" />
+            <div className="adicionar-ao-carrinho29">Adicionar ao Carrinho</div>
+            <div className="a-partir-de-container58">
+              <span className="a-partir-de-container17">
                 <span>A partir de</span>
-                <span className="span">{` `}</span>
-                <span className="r-199022">R$ 19,90</span>
+                <span className="span8">{` `}</span>
+                <span className="r-199030">R$ 19,90</span>
               </span>
             </div>
           </div>
           <div className="image-12-parent11">
-            <img className="image-12-icon" alt="" src="/image-121@2x.png" />
-            <div className="peito-de-frango1">Peito de Frango</div>
-            <div className="esse-t-no21">
+            <img className="image-12-icon5" alt="" src="/image-121@2x.png" />
+            <div className="peito-de-frango10">Peito de Frango</div>
+            <div className="esse-t-no30">
               Esse tá no top 3 dos mais pedidos do Fast Grill, você não vai
               deixar de pedir esse clássico né? Um irresistível filé de peito de
               frango grelhado e com aquele acompanhamento caprichado.
             </div>
-            <div className="frame-child29" />
-            <div className="adicionar-ao-carrinho21">Adicionar ao Carrinho</div>
-            <div className="a-partir-de-container42">
-              <span className="a-partir-de-container1">
+            <div className="frame-child39" />
+            <div className="adicionar-ao-carrinho29">Adicionar ao Carrinho</div>
+            <div className="a-partir-de-container58">
+              <span className="a-partir-de-container17">
                 <span>A partir de</span>
-                <span className="span">{` `}</span>
-                <span className="r-199022">R$ 19,90</span>
+                <span className="span8">{` `}</span>
+                <span className="r-199030">R$ 19,90</span>
               </span>
             </div>
           </div>

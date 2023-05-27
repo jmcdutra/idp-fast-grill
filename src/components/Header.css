@@ -1,38 +1,30 @@
-@keyframes scale-up {
-  0% {
-    transform: scale(0.5);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-.cardpio8,
-.home8 {
+.cardpio9,
+.home9 {
   position: absolute;
   top: 48px;
   left: 904px;
   display: inline-block;
   width: 126.67px;
 }
-.cardpio8 {
+.cardpio9 {
   left: 1089.33px;
   width: 213.33px;
   cursor: pointer;
 }
-.group-child77 {
+.group-child92 {
   top: 0;
   left: 0;
   border-radius: 66.67px;
   background-color: var(--color-white);
 }
-.group-child77,
-.rea-do-cliente7,
-.rectangle-parent32 {
+.group-child92,
+.rea-do-cliente8,
+.rectangle-parent43 {
   position: absolute;
   width: 414.67px;
   height: 93.33px;
 }
-.rea-do-cliente7 {
+.rea-do-cliente8 {
   top: 0;
   left: 0;
   font-weight: 500;
@@ -40,17 +32,14 @@
   align-items: center;
   justify-content: center;
 }
-.rectangle-parent32 {
+.rectangle-parent43 {
   top: 30.67px;
   left: 1468px;
+  cursor: pointer;
   color: var(--color-gray);
 }
-.rectangle-parent32:hover {
-  animation: 1s ease 0s infinite normal none scale-up;
-  opacity: 1;
-}
-.vecteezy-restaurant-logo-food-icon19,
-.vector-icon41 {
+.vecteezy-restaurant-logo-food-icon21,
+.vector-icon28 {
   position: absolute;
   height: 69.23%;
   width: 4.44%;
@@ -62,7 +51,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.vector-icon41 {
+.vector-icon28 {
   height: 30.77%;
   width: 2.5%;
   top: 35.04%;
@@ -71,7 +60,7 @@
   left: 70.9%;
   cursor: pointer;
 }
-.header7 {
+.header8 {
   position: absolute;
   top: 0;
   left: 0;

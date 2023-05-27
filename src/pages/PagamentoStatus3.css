@@ -33,7 +33,7 @@
   width: 256px;
   height: 256px;
 }
-.fluentbox-24-filled,
+.fluentbox-24-filled1,
 .heroiconspencil-solid,
 .material-symbolsstore,
 .mdicalendar {
@@ -44,32 +44,32 @@
   height: 24px;
   overflow: hidden;
 }
-.fluentbox-24-filled,
+.fluentbox-24-filled1,
 .material-symbolsstore,
 .mdicalendar {
   left: 24px;
 }
-.fluentbox-24-filled,
+.fluentbox-24-filled1,
 .mdicalendar {
   left: 0;
 }
-.fluentbox-24-filled {
+.fluentbox-24-filled1 {
   top: 660px;
   left: 44px;
 }
-.footer,
-.group-child {
+.footer1,
+.group-child2 {
   position: absolute;
   top: 3875.33px;
   left: 0;
   width: 1920px;
   height: 369.33px;
 }
-.group-child {
+.group-child2 {
   top: 0;
   background-color: var(--color-darkorange);
 }
-.vecteezy-restaurant-logo-food-icon {
+.vecteezy-restaurant-logo-food-icon2 {
   position: absolute;
   height: 46.57%;
   width: 6.81%;
@@ -81,36 +81,37 @@
   overflow: hidden;
   max-height: 100%;
 }
-.fast-grill-,
-.todos-os-direitos {
+.fast-grill-1,
+.todos-os-direitos1 {
   position: absolute;
   top: 242.67px;
   left: 789.33px;
 }
-.todos-os-direitos {
+.todos-os-direitos1 {
   top: 306.67px;
   font-size: 18.67px;
 }
-.header-child,
-.rectangle-parent {
+.header-inner,
+.rectangle-parent2 {
   position: absolute;
   left: 0;
   width: 1920px;
 }
-.rectangle-parent {
+.rectangle-parent2 {
   top: 1654px;
   height: 369.33px;
   text-align: center;
   font-size: 42.67px;
+  color: var(--color-white);
 }
-.header-child {
+.header-inner {
   top: 0;
   background-color: var(--color-darkorange);
   box-shadow: 0 5.333333492279053px 66.67px 13.33px rgba(0, 0, 0, 0.2);
   height: 156px;
 }
-.cardpio,
-.home {
+.cardpio1,
+.home2 {
   position: absolute;
   top: 48px;
   left: 904px;
@@ -118,31 +119,31 @@
   width: 126.67px;
   cursor: pointer;
 }
-.cardpio {
+.cardpio1 {
   left: 1089.33px;
   width: 213.33px;
 }
-.header-item,
-.rea-do-cliente {
+.header-child1,
+.rea-do-cliente1 {
   position: absolute;
   top: 30.67px;
   left: 1468px;
   width: 414.67px;
   height: 93.33px;
 }
-.header-item {
+.header-child1 {
   border-radius: 66.67px;
   background-color: var(--color-white);
 }
-.rea-do-cliente {
+.rea-do-cliente1 {
   font-weight: 500;
   color: var(--color-gray);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.vecteezy-restaurant-logo-food-icon1,
-.vector-icon {
+.vecteezy-restaurant-logo-food-icon3,
+.vector-icon1 {
   position: absolute;
   height: 69.23%;
   width: 4.44%;
@@ -154,7 +155,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.vector-icon {
+.vector-icon1 {
   height: 30.77%;
   width: 2.5%;
   top: 35.04%;
@@ -162,7 +163,7 @@
   bottom: 34.19%;
   left: 70.9%;
 }
-.header {
+.header1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -170,6 +171,7 @@
   height: 156px;
   text-align: center;
   font-size: var(--font-size-21xl);
+  color: var(--color-white);
 }
 .pagamento-status3-child {
   position: absolute;
@@ -182,7 +184,7 @@
   width: 518px;
   height: 93px;
 }
-.solarstar-bold-duotone {
+.solarstar-bold-duotone1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -190,7 +192,7 @@
   height: 24px;
   overflow: hidden;
 }
-.solarstar-bold-duotone-wrapper {
+.solarstar-bold-duotone-container {
   position: absolute;
   top: 1057px;
   left: 1833.01px;
@@ -202,6 +204,7 @@
   position: absolute;
   top: 211px;
   left: 108px;
+  font-size: 35.33px;
   font-weight: 500;
   color: var(--color-black);
 }
@@ -216,10 +219,11 @@
   width: 1080px;
   height: 1120px;
 }
-.confira-seu-pedido {
+.confira-seu-pedido1 {
   position: absolute;
   top: 211px;
   left: 679px;
+  font-size: 35.33px;
   font-weight: 500;
   color: var(--color-black);
 }
@@ -230,7 +234,6 @@
   left: 706px;
   font-size: var(--font-size-13xl);
   font-weight: 600;
-  color: var(--color-darkslategray-600);
 }
 .previso-de-retirada {
   top: 428px;
@@ -245,24 +248,14 @@
   color: var(--color-darkorange);
   text-align: center;
 }
-.aguardando {
-  margin: 0;
-}
-.aguardando-aprovao {
+.identifique-se1 {
   position: absolute;
-  top: 766px;
-  left: 780px;
-  font-size: var(--font-size-5xl);
-  color: var(--color-dimgray-400);
-  text-align: center;
-}
-.identifique-se {
-  position: absolute;
-  top: 307px;
+  top: 312px;
   left: 175px;
+  font-size: var(--font-size-9xl);
   color: var(--color-darkslategray-200);
 }
-.div,
+.div4,
 .pagamento-status3-inner {
   position: absolute;
   top: 315px;
@@ -274,117 +267,7 @@
   border-radius: 50%;
   background-color: var(--color-darkslategray-200);
 }
-.div {
-  font-size: 25.33px;
-  font-weight: 600;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.rectangle-div {
-  position: absolute;
-  top: 423px;
-  left: 107px;
-  border-radius: var(--br-xl);
-  background-color: var(--color-darkorange);
-  box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
-    rgba(0, 0, 0, 0.25);
-  width: 518px;
-  height: 93px;
-}
-.forma-de-pagamento {
-  position: absolute;
-  top: 443px;
-  left: 175px;
-}
-.div1,
-.ellipse-div {
-  position: absolute;
-  top: 451px;
-  left: 121px;
-  width: 38px;
-  height: 38px;
-}
-.ellipse-div {
-  border-radius: 50%;
-  background-color: var(--color-white);
-}
-.div1 {
-  font-size: 25.33px;
-  font-weight: 600;
-  color: var(--color-darkorange);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.pagamento-status3-child1 {
-  position: absolute;
-  top: 559px;
-  left: 107px;
-  border-radius: var(--br-xl);
-  background-color: var(--color-white);
-  box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
-    rgba(0, 0, 0, 0.25);
-  width: 518px;
-  height: 93px;
-}
-.confira-seu-pedido1 {
-  position: absolute;
-  top: 579px;
-  left: 175px;
-  color: var(--color-darkslategray-200);
-}
-.div2,
-.pagamento-status3-child2 {
-  position: absolute;
-  top: 587px;
-  left: 121px;
-  width: 38px;
-  height: 38px;
-}
-.pagamento-status3-child2 {
-  border-radius: 50%;
-  background-color: var(--color-darkslategray-200);
-}
-.div2 {
-  font-size: 25.33px;
-  font-weight: 600;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.group-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-xl);
-  background-color: var(--color-white);
-  box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
-    rgba(0, 0, 0, 0.25);
-  width: 518px;
-  height: 93px;
-}
-.forma-de-pagamento1 {
-  position: absolute;
-  top: 20px;
-  left: 68px;
-}
-.div3,
-.group-inner {
-  position: absolute;
-  top: 28px;
-  left: 14px;
-  width: 38px;
-  height: 38px;
-}
-.group-inner {
-  border-radius: 50%;
-  background-color: var(--color-darkslategray-200);
-}
-.div3 {
+.div4 {
   font-size: 25.33px;
   font-weight: 600;
   color: var(--color-white);
@@ -393,55 +276,10 @@
   align-items: center;
   justify-content: center;
 }
-.rectangle-group {
+.pagamento-status3-child1 {
   position: absolute;
   top: 423px;
   left: 107px;
-  width: 518px;
-  height: 93px;
-  color: var(--color-darkslategray-200);
-}
-.pagamento-status3-child3 {
-  position: absolute;
-  top: 695px;
-  left: 108px;
-  border-radius: var(--br-xl);
-  background-color: var(--color-white);
-  box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
-    rgba(0, 0, 0, 0.25);
-  width: 518px;
-  height: 93px;
-}
-.status-do-pedido {
-  position: absolute;
-  top: 715px;
-  left: 176px;
-  color: var(--color-darkslategray-200);
-}
-.div4,
-.pagamento-status3-child4 {
-  position: absolute;
-  top: 723px;
-  left: 122px;
-  width: 38px;
-  height: 38px;
-}
-.pagamento-status3-child4 {
-  border-radius: 50%;
-  background-color: var(--color-darkslategray-200);
-}
-.div4 {
-  font-size: 25.33px;
-  font-weight: 600;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.group-child1 {
-  position: absolute;
-  top: 0;
-  left: 0;
   border-radius: var(--br-xl);
   background-color: var(--color-darkorange);
   box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
@@ -449,15 +287,22 @@
   width: 518px;
   height: 93px;
 }
-.div5,
-.group-child2 {
+.forma-de-pagamento2 {
   position: absolute;
-  top: 28px;
-  left: 14px;
+  top: 443px;
+  left: 175px;
+  font-size: 35.33px;
+  color: var(--color-white);
+}
+.div5,
+.pagamento-status3-child2 {
+  position: absolute;
+  top: 451px;
+  left: 121px;
   width: 38px;
   height: 38px;
 }
-.group-child2 {
+.pagamento-status3-child2 {
   border-radius: 50%;
   background-color: var(--color-white);
 }
@@ -470,12 +315,170 @@
   align-items: center;
   justify-content: center;
 }
-.rectangle-container {
+.pagamento-status3-child3 {
+  position: absolute;
+  top: 559px;
+  left: 107px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
+    rgba(0, 0, 0, 0.25);
+  width: 518px;
+  height: 93px;
+}
+.confira-seu-pedido2 {
+  position: absolute;
+  top: 584px;
+  left: 175px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkslategray-200);
+}
+.div6,
+.pagamento-status3-child4 {
+  position: absolute;
+  top: 587px;
+  left: 121px;
+  width: 38px;
+  height: 38px;
+}
+.pagamento-status3-child4 {
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-200);
+}
+.div6 {
+  font-size: 25.33px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
+    rgba(0, 0, 0, 0.25);
+  width: 518px;
+  height: 93px;
+}
+.forma-de-pagamento3 {
+  position: absolute;
+  top: 25px;
+  left: 68px;
+}
+.div7,
+.group-child4 {
+  position: absolute;
+  top: 28px;
+  left: 14px;
+  width: 38px;
+  height: 38px;
+}
+.group-child4 {
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-200);
+}
+.div7 {
+  font-size: 25.33px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 423px;
+  left: 107px;
+  width: 518px;
+  height: 93px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkslategray-200);
+}
+.pagamento-status3-child5 {
+  position: absolute;
+  top: 695px;
+  left: 108px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
+    rgba(0, 0, 0, 0.25);
+  width: 518px;
+  height: 93px;
+}
+.status-do-pedido1 {
+  position: absolute;
+  top: 715px;
+  left: 176px;
+  font-size: 35.33px;
+  color: var(--color-darkslategray-200);
+}
+.div8,
+.pagamento-status3-child6 {
+  position: absolute;
+  top: 723px;
+  left: 122px;
+  width: 38px;
+  height: 38px;
+}
+.pagamento-status3-child6 {
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-200);
+}
+.div8 {
+  font-size: 25.33px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-child5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkorange);
+  box-shadow: 1.788395881652832px 1.788395881652832px 17.88px
+    rgba(0, 0, 0, 0.25);
+  width: 518px;
+  height: 93px;
+}
+.div9,
+.group-child6 {
+  position: absolute;
+  top: 28px;
+  left: 14px;
+  width: 38px;
+  height: 38px;
+}
+.group-child6 {
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.div9 {
+  font-size: 25.33px;
+  font-weight: 600;
+  color: var(--color-darkorange);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-parent4 {
   position: absolute;
   top: 695px;
   left: 107px;
   width: 518px;
   height: 93px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
 }
 .pedido-80 {
   position: absolute;
@@ -488,7 +491,7 @@
   left: 0;
   text-align: center;
 }
-.group-div,
+.pagamento-status3-inner1,
 .pedido-80-parent {
   position: absolute;
   top: 0;
@@ -496,14 +499,13 @@
   width: 840px;
   height: 276px;
 }
-.group-div {
+.pagamento-status3-inner1 {
   top: 324px;
   left: 889px;
   text-align: right;
-  font-size: var(--font-size-5xl);
   color: var(--color-gray-400);
 }
-.pagamento-status3-child5 {
+.pagamento-status3-child7 {
   position: absolute;
   top: 387px;
   left: 679px;
@@ -511,19 +513,18 @@
   width: 1080px;
   height: 2px;
 }
-.cupons-de-desconto,
 .programa-de-fidelidade {
   position: absolute;
   top: 892px;
   left: 705px;
   font-size: var(--font-size-13xl);
   font-weight: 600;
-  color: var(--color-darkslategray-600);
 }
 .cupons-de-desconto {
+  position: absolute;
   top: 980px;
   left: 770px;
-  font-size: var(--font-size-5xl);
+  font-weight: 600;
 }
 .ganhe-cupons-de-container {
   position: absolute;
@@ -532,7 +533,7 @@
   font-size: var(--font-size-xl);
   color: var(--color-gray-300);
 }
-.pagamento-status3-child6 {
+.pagamento-status3-child8 {
   position: absolute;
   top: 959px;
   left: 678px;
@@ -546,9 +547,8 @@
   left: 705px;
   font-size: var(--font-size-13xl);
   font-weight: 600;
-  color: var(--color-darkslategray-600);
 }
-.pagamento-status3-child7 {
+.pagamento-status3-child9 {
   position: absolute;
   top: 1319px;
   left: 678px;
@@ -556,29 +556,38 @@
   width: 1080px;
   height: 2px;
 }
+.aguardando {
+  margin: 0;
+}
+.aguardando-aprovao,
 .b,
-.pagamento-status3-child8 {
+.frame-child1 {
   position: absolute;
-  top: 699px;
-  left: 830px;
+  top: 121px;
+  left: 0;
+}
+.b,
+.frame-child1 {
+  top: 54px;
+  left: 50px;
   width: 54px;
   height: 54px;
 }
-.pagamento-status3-child8 {
+.frame-child1 {
   border-radius: var(--br-8xs);
   background-color: var(--color-darkorange);
 }
 .b {
   font-size: var(--font-size-13xl);
   display: flex;
-  text-align: center;
+  color: var(--color-white);
   align-items: center;
   justify-content: center;
 }
-.pagamento-status3-child9 {
+.frame-child2 {
   position: absolute;
-  top: 724px;
-  left: 904px;
+  top: 79px;
+  left: 124px;
   border-radius: var(--br-10xs-5);
   background-color: var(--color-darkorange);
   width: 268px;
@@ -586,56 +595,53 @@
 }
 .mask-group-icon {
   position: absolute;
-  height: 2.17%;
-  width: 1.88%;
-  top: 31.83%;
-  right: 54.43%;
-  bottom: 65.99%;
-  left: 43.7%;
+  height: 22.8%;
+  width: 4.11%;
+  top: -0.52%;
+  right: 89.16%;
+  bottom: 77.72%;
+  left: 6.74%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
 .preparando-seu-pedido-container {
   position: absolute;
-  top: 766px;
-  left: 1122px;
-  font-size: var(--font-size-5xl);
-  color: var(--color-dimgray-400);
-  text-align: center;
+  top: 121px;
+  left: 342px;
 }
 .b1,
-.pagamento-status3-child10 {
+.frame-child3 {
   position: absolute;
-  top: 699px;
-  left: 1192px;
+  top: 54px;
+  left: 412px;
   width: 54px;
   height: 54px;
 }
-.pagamento-status3-child10 {
+.frame-child3 {
   border-radius: var(--br-8xs);
   background-color: var(--color-darkorange);
 }
 .b1 {
   font-size: var(--font-size-13xl);
   display: flex;
-  text-align: center;
+  color: var(--color-white);
   align-items: center;
   justify-content: center;
 }
-.vector-icon1 {
+.vector-icon2 {
   position: absolute;
-  height: 2.13%;
-  width: 1.98%;
-  top: 31.88%;
-  right: 35.57%;
-  bottom: 65.99%;
-  left: 62.45%;
+  height: 22.28%;
+  width: 4.34%;
+  top: 0;
+  right: 47.83%;
+  bottom: 77.72%;
+  left: 47.83%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.group-child3 {
+.group-child7 {
   position: absolute;
   top: 79px;
   left: 0;
@@ -650,14 +656,14 @@
   left: 237px;
 }
 .b2,
-.group-child4 {
+.group-child8 {
   position: absolute;
   top: 54px;
   left: 287px;
   width: 54px;
   height: 54px;
 }
-.group-child4 {
+.group-child8 {
   border-radius: var(--br-8xs);
   background-color: var(--color-darkorange);
 }
@@ -668,7 +674,7 @@
   align-items: center;
   justify-content: center;
 }
-.vector-icon2 {
+.vector-icon3 {
   position: absolute;
   height: 21.76%;
   width: 10.77%;
@@ -680,44 +686,26 @@
   overflow: hidden;
   max-height: 100%;
 }
-.rectangle-parent1 {
+.aguardando-aprovao-parent,
+.rectangle-parent5 {
   position: absolute;
-  top: 645px;
-  left: 1266px;
+  top: 0;
+  left: 486px;
   width: 390px;
   height: 193px;
+}
+.aguardando-aprovao-parent {
+  top: 645px;
+  left: 780px;
+  width: 876px;
   text-align: center;
-  font-size: var(--font-size-5xl);
   color: var(--color-dimgray-400);
-}
-.pagamento-status3-child11 {
-  position: absolute;
-  top: 988px;
-  left: 705px;
-  border-radius: 50%;
-  background-color: var(--color-darkslategray-700);
-  width: 49px;
-  height: 49px;
-}
-.vector-icon3 {
-  position: absolute;
-  height: 1.48%;
-  width: 1.56%;
-  top: 49.33%;
-  right: 61.25%;
-  bottom: 49.18%;
-  left: 37.19%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
 }
 .novos-pedidos {
   position: absolute;
   top: 1065px;
   left: 770px;
-  font-size: var(--font-size-5xl);
   font-weight: 600;
-  color: var(--color-darkslategray-600);
 }
 .acumule-pontos-e {
   position: absolute;
@@ -726,39 +714,14 @@
   font-size: var(--font-size-xl);
   color: var(--color-gray-300);
 }
-.pagamento-status3-child12 {
-  position: absolute;
-  top: 1073px;
-  left: 705px;
-  border-radius: 50%;
-  background-color: var(--color-darkslategray-700);
-  width: 49px;
-  height: 49px;
-}
-.vector-icon4 {
-  position: absolute;
-  height: 1.48%;
-  width: 1.56%;
-  top: 53.53%;
-  right: 61.25%;
-  bottom: 44.98%;
-  left: 37.19%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.entre-em-contato,
 .pedidos-acumulativos {
   position: absolute;
-  font-size: var(--font-size-5xl);
-  color: var(--color-darkslategray-600);
-}
-.pedidos-acumulativos {
   top: 1150px;
   left: 770px;
   font-weight: 600;
 }
 .entre-em-contato {
+  position: absolute;
   top: 1340px;
   left: 705px;
 }
@@ -769,54 +732,19 @@
   font-size: var(--font-size-xl);
   color: var(--color-gray-300);
 }
-.pagamento-status3-child13,
-.pagamento-status3-child14,
-.pagamento-status3-child15 {
+.frame-icon {
   position: absolute;
-  top: 1158px;
+  top: 988px;
   left: 705px;
-  border-radius: 50%;
-  background-color: var(--color-darkslategray-700);
   width: 49px;
-  height: 49px;
+  height: 219px;
 }
-.pagamento-status3-child14,
-.pagamento-status3-child15 {
+.pagamento-status3-child10 {
+  position: absolute;
   top: 1336px;
   left: 1612px;
-}
-.pagamento-status3-child15 {
-  left: 1680px;
-}
-.vector-icon5,
-.vector-icon6,
-.vector-icon7 {
-  position: absolute;
-  height: 1.48%;
-  width: 1.56%;
-  top: 57.74%;
-  right: 61.25%;
-  bottom: 40.78%;
-  left: 37.19%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.vector-icon6,
-.vector-icon7 {
-  height: 1.24%;
-  width: 1.3%;
-  top: 66.63%;
-  right: 14.11%;
-  bottom: 32.13%;
-  left: 84.58%;
-}
-.vector-icon7 {
-  height: 1.29%;
-  width: 1.35%;
-  top: 66.58%;
-  right: 10.52%;
-  left: 88.13%;
+  width: 117px;
+  height: 49px;
 }
 .pagamento-status3 {
   position: relative;
@@ -825,7 +753,7 @@
   height: 2023px;
   overflow: hidden;
   text-align: left;
-  font-size: 35.33px;
-  color: var(--color-white);
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-600);
   font-family: var(--font-poppins);
 }

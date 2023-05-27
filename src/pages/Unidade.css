@@ -29,15 +29,15 @@
   height: 1281px;
   object-fit: cover;
 }
-.group-child33 {
+.group-child35 {
   top: 0;
   left: 0;
   border-radius: 49.3px;
   background-color: var(--color-white);
 }
-.group-child33,
+.group-child35,
 .incio,
-.rectangle-parent17 {
+.rectangle-parent19 {
   position: absolute;
   width: 306.67px;
   height: 69.02px;
@@ -50,7 +50,7 @@
   align-items: center;
   justify-content: center;
 }
-.rectangle-parent17 {
+.rectangle-parent19 {
   top: 113px;
   left: 1369px;
   cursor: pointer;
@@ -93,7 +93,7 @@
   left: 185px;
   font-size: var(--font-size-5xl);
 }
-.frame-child {
+.frame-child9 {
   position: absolute;
   top: 104px;
   left: 159px;
@@ -132,7 +132,7 @@
   cursor: pointer;
   font-size: var(--font-size-xl);
 }
-.frame-item {
+.frame-child10 {
   position: absolute;
   top: 104px;
   left: 159px;

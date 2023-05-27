@@ -1,5 +1,4 @@
 import { useCallback, useEffect } from "react";
-import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -7,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   const navigate = useNavigate();
 
-  const onGroupButtonClick = useCallback(() => {
+  const onGroupContainerClick = useCallback(() => {
     navigate("/cardapio");
   }, [navigate]);
 
@@ -42,8 +41,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home6">
+    <div className="home1">
       <img className="home-child" alt="" src="/vector-1.svg" />
+      <img className="home-item" alt="" src="/vector-2.svg" />
       <div className="pedidos-direto-da">Pedidos direto da sala de aula!</div>
       <div className="faa-seu-pedido-container">
         <p className="faa-seu-pedido-pelo-site-ou-a">
@@ -59,15 +59,10 @@ const Home = () => {
           fila quilométrica?
         </p>
       </div>
-      <Button
-        className="home-item"
-        sx={{ width: 273.3333435058594 }}
-        variant="contained"
-        color="primary"
-        onClick={onGroupButtonClick}
-      >
-        Fazer Pedido
-      </Button>
+      <div className="rectangle-container" onClick={onGroupContainerClick}>
+        <div className="group-inner" />
+        <div className="fazer-pedido">Fazer Pedido</div>
+      </div>
       <img
         className="image-1-icon"
         alt=""
@@ -81,11 +76,10 @@ const Home = () => {
         nos 5 minutos antes da aula acabar e retirar o seu lanche assim que sair
         da sala sem enfrentar nenhuma fila quilométrica?
       </div>
-      <div className="rectangle-parent22">
-        <div className="group-child35" />
+      <div className="rectangle-parent1">
+        <div className="group-child1" />
         <div className="fazer-o-meu">Fazer o meu pedido agora</div>
       </div>
-      <img className="home-inner" alt="" src="/vector-2.svg" />
       <div className="frame-parent">
         <div className="image-3-1-parent">
           <img className="image-3-1" alt="" src="/image-3-1@2x.png" />

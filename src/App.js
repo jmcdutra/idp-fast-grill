@@ -4,15 +4,16 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import PagamentoForma from "./pages/PagamentoForma";
+import Home from "./pages/Home";
 import PagamentoStatus3 from "./pages/PagamentoStatus3";
 import PagamentoStatus from "./pages/PagamentoStatus";
 import PagamentoStatus2 from "./pages/PagamentoStatus2";
 import PagamentoConferir from "./pages/PagamentoConferir";
-import PagamentoForma from "./pages/PagamentoForma";
 import Unidade from "./pages/Unidade";
-import Cardpio from "./pages/Cardpio";
-import Home from "./pages/Home";
 import Modal from "./pages/Modal";
+import Cardpio from "./pages/Cardpio";
+import AreaDoCliente from "./pages/AreaDoCliente";
 import { useEffect } from "react";
 
 function App() {
@@ -35,6 +36,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/home":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/pagamentostatus3":
+        title = "";
+        metaDescription = "";
+        break;
       case "/pagamentostatus":
         title = "";
         metaDescription = "";
@@ -47,11 +56,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/pagamentoforma":
+      case "/unidade":
         title = "";
         metaDescription = "";
         break;
-      case "/unidade":
+      case "/modal":
         title = "";
         metaDescription = "";
         break;
@@ -59,11 +68,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/home":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/modal":
+      case "/area-do-cliente":
         title = "";
         metaDescription = "";
         break;
@@ -85,15 +90,16 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<PagamentoStatus3 />} />
+      <Route path="/" element={<PagamentoForma />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/pagamentostatus3" element={<PagamentoStatus3 />} />
       <Route path="/pagamentostatus" element={<PagamentoStatus />} />
       <Route path="/pagamentostatus2" element={<PagamentoStatus2 />} />
       <Route path="/pagamentoconferir" element={<PagamentoConferir />} />
-      <Route path="/pagamentoforma" element={<PagamentoForma />} />
       <Route path="/unidade" element={<Unidade />} />
-      <Route path="/cardapio" element={<Cardpio />} />
-      <Route path="/home" element={<Home />} />
       <Route path="/modal" element={<Modal />} />
+      <Route path="/cardapio" element={<Cardpio />} />
+      <Route path="/area-do-cliente" element={<AreaDoCliente />} />
     </Routes>
   );
 }

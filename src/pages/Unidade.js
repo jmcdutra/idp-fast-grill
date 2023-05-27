@@ -22,8 +22,8 @@ const Unidade = () => {
       <div className="footer5" />
       <div className="unidade-child" />
       <img className="unidade-item" alt="" src="/frame-43@2x.png" />
-      <div className="rectangle-parent17" onClick={onGroupContainerClick}>
-        <div className="group-child33" />
+      <div className="rectangle-parent19" onClick={onGroupContainerClick}>
+        <div className="group-child35" />
         <div className="incio">Início</div>
       </div>
       <div className="solarstar-bold-duotone5" />
@@ -37,8 +37,8 @@ const Unidade = () => {
         <div className="sgan-609-mdulo">
           SGAN 609 Módulo A - Asa Norte, Brasília - DF, 70830-401
         </div>
-        <b className="aberto-at-as">Aberto até as 18:00hrs</b>
-        <div className="frame-child" />
+        <b className="aberto-at-as">Aberto até as 20:00hrs</b>
+        <div className="frame-child9" />
       </div>
       <div
         className="selecionar-unidade-wrapper"
@@ -57,7 +57,7 @@ const Unidade = () => {
           SGAS II 607 Módulo 49 - Asa Sul, Brasília - DF, 70200-670
         </div>
         <b className="aberto-at-as">Fechado no momento</b>
-        <div className="frame-item" />
+        <div className="frame-child10" />
       </div>
       <div
         className="selecionar-unidade-container"

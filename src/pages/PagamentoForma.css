@@ -1,4 +1,4 @@
-.fluentbox-24-filled4 {
+.fluentbox-24-filled {
   position: absolute;
   top: 660px;
   left: 44px;
@@ -6,19 +6,19 @@
   height: 24px;
   overflow: hidden;
 }
-.footer4,
-.group-child26 {
+.footer,
+.group-child {
   position: absolute;
   top: 3875.33px;
   left: 0;
   width: 1920px;
   height: 369.33px;
 }
-.group-child26 {
+.group-child {
   top: 0;
   background-color: var(--color-darkorange);
 }
-.vecteezy-restaurant-logo-food-icon8 {
+.vecteezy-restaurant-logo-food-icon {
   position: absolute;
   height: 46.57%;
   width: 6.81%;
@@ -30,36 +30,36 @@
   overflow: hidden;
   max-height: 100%;
 }
-.fast-grill-4,
-.todos-os-direitos4 {
+.fast-grill-,
+.todos-os-direitos {
   position: absolute;
   top: 242.67px;
   left: 789.33px;
 }
-.todos-os-direitos4 {
+.todos-os-direitos {
   top: 306.67px;
   font-size: 18.67px;
 }
-.header-child6,
-.rectangle-parent15 {
+.header-child,
+.rectangle-parent {
   position: absolute;
   left: 0;
   width: 1920px;
 }
-.rectangle-parent15 {
+.rectangle-parent {
   top: 1393px;
   height: 369.33px;
   text-align: center;
   font-size: 42.67px;
 }
-.header-child6 {
+.header-child {
   top: 0;
   background-color: var(--color-darkorange);
   box-shadow: 0 5.333333492279053px 66.67px 13.33px rgba(0, 0, 0, 0.2);
   height: 156px;
 }
-.cardpio4,
-.home4 {
+.cardpio,
+.home {
   position: absolute;
   top: 48px;
   left: 904px;
@@ -67,31 +67,31 @@
   width: 126.67px;
   cursor: pointer;
 }
-.cardpio4 {
+.cardpio {
   left: 1089.33px;
   width: 213.33px;
 }
-.header-child7,
-.rea-do-cliente4 {
+.header-item,
+.rea-do-cliente {
   position: absolute;
   top: 30.67px;
   left: 1468px;
   width: 414.67px;
   height: 93.33px;
 }
-.header-child7 {
+.header-item {
   border-radius: 66.67px;
   background-color: var(--color-white);
 }
-.rea-do-cliente4 {
+.rea-do-cliente {
   font-weight: 500;
   color: var(--color-gray);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.vecteezy-restaurant-logo-food-icon9,
-.vector-icon32 {
+.vecteezy-restaurant-logo-food-icon1,
+.vector-icon {
   position: absolute;
   height: 69.23%;
   width: 4.44%;
@@ -103,7 +103,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.vector-icon32 {
+.vector-icon {
   height: 30.77%;
   width: 2.5%;
   top: 35.04%;
@@ -111,7 +111,7 @@
   bottom: 34.19%;
   left: 70.9%;
 }
-.header4 {
+.header {
   position: absolute;
   top: 0;
   left: 0;
@@ -131,7 +131,7 @@
   width: 518px;
   height: 93px;
 }
-.solarstar-bold-duotone4 {
+.solarstar-bold-duotone {
   position: absolute;
   top: 0;
   left: 0;
@@ -139,7 +139,7 @@
   height: 24px;
   overflow: hidden;
 }
-.solarstar-bold-duotone-wrapper2 {
+.solarstar-bold-duotone-wrapper {
   position: absolute;
   top: 1057px;
   left: 1833.01px;
@@ -158,10 +158,11 @@
   width: 1080px;
   height: 1063px;
 }
-.forma-de-pagamento8 {
+.forma-de-pagamento {
   position: absolute;
   top: 211px;
   left: 679px;
+  font-size: 35.33px;
   color: var(--color-black);
 }
 .selecione-o-mtodo {
@@ -172,13 +173,13 @@
   font-weight: 600;
   color: var(--color-darkslategray-600);
 }
-.identifique-se4 {
+.identifique-se {
   position: absolute;
-  top: 307px;
+  top: 312px;
   left: 175px;
   color: var(--color-darkslategray-200);
 }
-.div24,
+.div,
 .pagamento-forma-inner {
   position: absolute;
   top: 315px;
@@ -190,7 +191,7 @@
   border-radius: 50%;
   background-color: var(--color-darkslategray-200);
 }
-.div24 {
+.div {
   font-size: 25.33px;
   font-weight: 600;
   text-align: center;
@@ -198,7 +199,7 @@
   align-items: center;
   justify-content: center;
 }
-.pagamento-forma-child1 {
+.rectangle-div {
   position: absolute;
   top: 423px;
   left: 107px;
@@ -209,24 +210,24 @@
   width: 518px;
   height: 93px;
 }
-.forma-de-pagamento9 {
+.forma-de-pagamento1 {
   position: absolute;
-  top: 443px;
+  top: 448px;
   left: 175px;
 }
-.div25,
-.pagamento-forma-child2 {
+.div1,
+.ellipse-div {
   position: absolute;
   top: 451px;
   left: 121px;
   width: 38px;
   height: 38px;
 }
-.pagamento-forma-child2 {
+.ellipse-div {
   border-radius: 50%;
   background-color: var(--color-white);
 }
-.div25 {
+.div1 {
   font-size: 25.33px;
   font-weight: 600;
   color: var(--color-darkorange);
@@ -235,7 +236,7 @@
   align-items: center;
   justify-content: center;
 }
-.pagamento-forma-child3 {
+.pagamento-forma-child1 {
   position: absolute;
   top: 559px;
   left: 107px;
@@ -246,8 +247,8 @@
   width: 518px;
   height: 93px;
 }
-.pagamento-forma-child4,
-.pagamento-forma-child5 {
+.pagamento-forma-child2,
+.pagamento-forma-child3 {
   position: absolute;
   top: 931px;
   left: 694px;
@@ -257,32 +258,32 @@
   width: 532px;
   height: 93px;
 }
-.pagamento-forma-child5 {
+.pagamento-forma-child3 {
   top: 1259px;
   left: 706px;
   border: 3px solid var(--color-darkslategray-400);
   width: 507px;
   height: 74px;
 }
-.confira-seu-pedido9 {
+.confira-seu-pedido {
   position: absolute;
-  top: 579px;
+  top: 584px;
   left: 175px;
   color: var(--color-darkslategray-200);
 }
-.div26,
-.pagamento-forma-child6 {
+.div2,
+.pagamento-forma-child4 {
   position: absolute;
   top: 587px;
   left: 121px;
   width: 38px;
   height: 38px;
 }
-.pagamento-forma-child6 {
+.pagamento-forma-child4 {
   border-radius: 50%;
   background-color: var(--color-darkslategray-200);
 }
-.div26 {
+.div2 {
   font-size: 25.33px;
   font-weight: 600;
   text-align: center;
@@ -290,7 +291,7 @@
   align-items: center;
   justify-content: center;
 }
-.pagamento-forma-child7 {
+.pagamento-forma-child5 {
   position: absolute;
   top: 695px;
   left: 108px;
@@ -301,178 +302,165 @@
   width: 518px;
   height: 93px;
 }
-.status-do-pedido7 {
+.status-do-pedido {
   position: absolute;
-  top: 715px;
+  top: 720px;
   left: 176px;
   color: var(--color-darkslategray-200);
 }
-.div27,
-.pagamento-forma-child8 {
+.pagamento-forma-child6 {
   position: absolute;
   top: 723px;
   left: 122px;
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-200);
   width: 38px;
   height: 38px;
 }
-.pagamento-forma-child8 {
-  border-radius: 50%;
-  background-color: var(--color-darkslategray-200);
+.aprovao-imediata,
+.div3,
+.pix {
+  position: absolute;
+  display: flex;
+  align-items: center;
 }
-.div27 {
+.div3 {
+  top: 723px;
+  left: 122px;
   font-size: 25.33px;
   font-weight: 600;
   text-align: center;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  width: 38px;
+  height: 38px;
 }
 .aprovao-imediata,
 .pix {
-  position: absolute;
   left: 0;
 }
 .pix {
   top: 0;
   font-weight: 600;
+  width: 77px;
 }
 .aprovao-imediata {
-  top: 45.25px;
+  top: 45px;
   font-size: 28.96px;
   color: var(--color-gray-400);
+  width: 417px;
 }
 .image-15-icon,
 .pix-parent {
   position: absolute;
   top: 0;
-  left: 168px;
-  width: 299px;
-  height: 88.25px;
+  left: 105px;
+  width: 417px;
+  height: 88px;
 }
 .image-15-icon {
   top: 8px;
-  left: 63px;
+  left: 0;
   width: 72px;
   height: 72px;
   object-fit: cover;
 }
-.group-child27,
-.group-child28 {
-  position: absolute;
-  border-radius: 50%;
-}
-.group-child27 {
-  top: 25px;
-  left: 0;
-  border: 3.2px solid var(--color-darkslategray-500);
-  box-sizing: border-box;
-  width: 38px;
-  height: 38px;
-}
-.group-child28 {
-  top: 32.92px;
-  left: 7.92px;
-  background-color: var(--color-darkslategray-500);
-  width: 22.17px;
-  height: 22.17px;
-}
+.group-div,
 .group-parent {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 522px;
+  height: 88px;
+}
+.group-div {
   top: 527px;
-  left: 706px;
-  width: 467px;
-  height: 88.25px;
+  left: 769px;
   font-size: var(--font-size-17xl-2);
   color: var(--color-darkslategray-300);
 }
-.carto-de-dbito-parent {
+.descontos,
+.r-149,
+.r-4990,
+.r-524,
+.subtotal,
+.taxa-de-servio {
   position: absolute;
-  top: 0;
-  left: 168px;
-  width: 313px;
-  height: 88.25px;
-}
-.carto-de-crdito,
-.group-container {
-  position: absolute;
-  font-size: var(--font-size-17xl-2);
-  color: var(--color-darkslategray-300);
-}
-.group-container {
-  top: 655px;
-  left: 706px;
-  width: 481px;
-  height: 88.25px;
-}
-.carto-de-crdito {
-  top: 0;
-  left: 168px;
-  font-weight: 600;
-}
-.compra-segura1 {
-  position: absolute;
-  top: 45.25px;
-  left: 168px;
-}
-.r-1491,
-.r-49901,
-.r-5241,
-.subtotal1 {
-  position: absolute;
-  top: 261px;
+  top: 114px;
   left: 0;
-}
-.r-1491,
-.r-49901,
-.r-5241 {
-  left: 901px;
-  text-align: right;
-}
-.r-1491,
-.r-5241 {
-  top: 304px;
-  left: 928px;
-}
-.r-5241 {
-  top: 347px;
-  left: 920px;
-}
-.descontos1,
-.taxa-de-servio1 {
-  position: absolute;
-  top: 304px;
-  left: 0;
-}
-.descontos1 {
-  top: 347px;
-}
-.r-46151,
-.total1 {
-  position: absolute;
-  top: 399px;
-  font-size: var(--font-size-21xl);
-  color: var(--color-black);
-}
-.r-46151 {
-  left: 866px;
-  text-align: right;
-}
-.total1 {
-  left: 0;
-}
-.digite-um-cupom1,
-.voltar1 {
-  position: absolute;
-  top: 147px;
-  left: 65px;
-  color: var(--color-darkorange);
   display: flex;
   align-items: center;
+  width: 161px;
+}
+.descontos,
+.r-149,
+.r-4990,
+.r-524,
+.taxa-de-servio {
+  left: 900px;
+  width: 247px;
+}
+.descontos,
+.r-149,
+.r-524,
+.taxa-de-servio {
+  top: 157px;
+  left: 928px;
+  width: 192px;
+}
+.descontos,
+.r-524,
+.taxa-de-servio {
+  top: 200px;
+  left: 919px;
+  width: 209px;
+}
+.descontos,
+.taxa-de-servio {
+  top: 157px;
+  left: 0;
+  width: 299px;
+}
+.descontos {
+  top: 200px;
+  width: 208px;
+}
+.r-4615 {
+  top: 252px;
+  left: 864px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  width: 318px;
+}
+.r-4615:hover {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  text-align: right;
+}
+.digite-um-cupom,
+.r-4615,
+.total,
+.voltar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.total {
+  top: 252px;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  width: 139px;
+}
+.digite-um-cupom,
+.voltar {
+  top: 0;
+  left: 65px;
+  color: var(--color-darkorange);
   width: 467px;
   height: 93px;
 }
-.voltar1 {
-  top: 476px;
+.voltar {
+  top: 329px;
   left: 0;
   color: var(--color-darkslategray-400);
   text-align: center;
@@ -480,29 +468,29 @@
   width: 507px;
   height: 74px;
 }
-.carto-de-crdito-parent,
-.group-parent1 {
+.pagamento-forma-inner1,
+.subtotal-parent {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1023px;
-  height: 550px;
+  width: 1182px;
+  height: 403px;
 }
-.group-parent1 {
-  top: 783px;
+.pagamento-forma-inner1 {
+  top: 930px;
   left: 706px;
   font-size: 28.96px;
   color: var(--color-gray-400);
 }
-.group-child31 {
+.group-item {
   top: 0;
   left: 0;
   border-radius: var(--br-3xs);
   background-color: var(--color-darkslategray-400);
 }
 .avanar,
-.group-child31,
-.rectangle-parent16 {
+.group-item,
+.rectangle-group {
   position: absolute;
   width: 507px;
   height: 74px;
@@ -514,49 +502,160 @@
   align-items: center;
   justify-content: center;
 }
-.rectangle-parent16 {
+.rectangle-group {
   top: 1259px;
   left: 1222px;
   cursor: pointer;
   text-align: center;
   font-size: 28.96px;
 }
-.dinheiro-parent,
-.group-parent2 {
+.frame-child {
+  position: absolute;
+  top: 128px;
+  left: 0;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 256px;
+  left: 0;
+}
+.frame-inner {
+  top: 384px;
+}
+.ellipse-formcontrollabel {
   position: absolute;
   top: 0;
-  left: 168px;
-  width: 195px;
-  height: 88.25px;
+  left: 0;
 }
-.group-parent2 {
-  top: 399px;
+.ellipse-parent,
+.pagamento-forma-inner2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 38px;
+  height: 422px;
+}
+.pagamento-forma-inner2 {
+  top: 424px;
   left: 706px;
-  width: 363px;
-  font-size: var(--font-size-17xl-2);
-  color: var(--color-darkslategray-300);
 }
+.dinheiro,
+.fcil-e-rpido {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.dinheiro {
+  top: 0;
+  font-weight: 600;
+  width: 229px;
+}
+.fcil-e-rpido {
+  top: 45px;
+  font-size: 28.96px;
+  color: var(--color-gray-400);
+  width: 272px;
+}
+.dinheiro-parent,
 .meu-projeto-1 {
   position: absolute;
-  top: 420px;
-  left: 772px;
+  top: 0;
+  left: 102px;
+  width: 272px;
+  height: 88px;
+}
+.meu-projeto-1 {
+  top: 21px;
+  left: 0;
   width: 66px;
   height: 46px;
   object-fit: cover;
 }
-.magnetic-card-icon,
-.magnetic-card-icon1 {
+.group-container {
   position: absolute;
-  top: 676px;
-  left: 771px;
+  top: 399px;
+  left: 772px;
+  width: 374px;
+  height: 88px;
+  font-size: var(--font-size-17xl-2);
+  color: var(--color-darkslategray-300);
+}
+.carto-de-dbito,
+.compra-segura {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.carto-de-dbito {
+  top: 0;
+  font-weight: 600;
+  width: 462px;
+}
+.compra-segura {
+  top: 45px;
+  font-size: 28.96px;
+  color: var(--color-gray-400);
+  width: 321px;
+}
+.carto-de-dbito-parent,
+.group-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 462px;
+  height: 88px;
+}
+.group-wrapper {
+  left: 103px;
+}
+.magnetic-card-icon {
+  position: absolute;
+  top: 21px;
+  left: 0;
   width: 68px;
   height: 48px;
   object-fit: cover;
 }
-.magnetic-card-icon1 {
-  top: 804px;
+.group-parent1 {
+  position: absolute;
+  top: 655px;
+  left: 771px;
+  width: 565px;
+  height: 88px;
+  font-size: var(--font-size-17xl-2);
+  color: var(--color-darkslategray-300);
 }
-.pagamento-forma-child9 {
+.carto-de-crdito,
+.compra-segura1 {
+  position: absolute;
+  left: 103px;
+  display: flex;
+  align-items: center;
+}
+.carto-de-crdito {
+  top: 0;
+  font-weight: 600;
+  width: 487px;
+}
+.compra-segura1 {
+  top: 45px;
+  font-size: 28.96px;
+  color: var(--color-gray-400);
+  width: 321px;
+}
+.carto-de-crdito-parent {
+  position: absolute;
+  top: 783px;
+  left: 771px;
+  width: 590px;
+  height: 88px;
+  font-size: var(--font-size-17xl-2);
+  color: var(--color-darkslategray-300);
+}
+.pagamento-forma-child7 {
   position: absolute;
   top: 912px;
   left: 678px;
@@ -564,7 +663,7 @@
   width: 1080px;
   height: 2px;
 }
-.pagamento-forma-child10 {
+.group-icon {
   position: absolute;
   height: 2.1%;
   width: 1.51%;
@@ -576,7 +675,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.pagamento-forma-child11 {
+.pagamento-forma-child8 {
   position: absolute;
   top: 930px;
   left: 1250px;
@@ -586,7 +685,7 @@
   width: 479px;
   height: 93px;
 }
-.resgatar-fidelidade1 {
+.resgatar-fidelidade {
   position: absolute;
   top: 930px;
   left: 1266px;
@@ -599,7 +698,7 @@
   width: 463px;
   height: 93px;
 }
-.group-icon2 {
+.group-icon1 {
   position: absolute;
   height: 2.07%;
   width: 1.9%;
@@ -618,7 +717,7 @@
   height: 1762px;
   overflow: hidden;
   text-align: left;
-  font-size: 35.33px;
+  font-size: var(--font-size-9xl);
   color: var(--color-white);
   font-family: var(--font-poppins);
 }

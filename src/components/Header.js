@@ -8,27 +8,31 @@ const Header = () => {
     navigate("/cardapio");
   }, [navigate]);
 
+  const onGroupContainer2Click = useCallback(() => {
+    navigate("/area-do-cliente");
+  }, [navigate]);
+
   const onVectorIconClick = useCallback(() => {
-    navigate("/pagamentoforma");
+    navigate("/");
   }, [navigate]);
 
   return (
-    <div className="header7">
-      <b className="home8">Home</b>
-      <div className="cardpio8" onClick={onCardpioTextClick}>
+    <div className="header8">
+      <b className="home9">Home</b>
+      <div className="cardpio9" onClick={onCardpioTextClick}>
         Cardápio
       </div>
-      <div className="rectangle-parent32">
-        <div className="group-child77" />
-        <div className="rea-do-cliente7">Área do Cliente</div>
+      <div className="rectangle-parent43" onClick={onGroupContainer2Click}>
+        <div className="group-child92" />
+        <div className="rea-do-cliente8">Área do Cliente</div>
       </div>
       <img
-        className="vecteezy-restaurant-logo-food-icon19"
+        className="vecteezy-restaurant-logo-food-icon21"
         alt=""
         src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced11.svg"
       />
       <img
-        className="vector-icon41"
+        className="vector-icon28"
         alt=""
         src="/vector11.svg"
         onClick={onVectorIconClick}
