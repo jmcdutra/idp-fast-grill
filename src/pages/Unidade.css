@@ -1,4 +1,4 @@
-.fluentbox-24-filled {
+.fluentbox-24-filled5 {
   position: absolute;
   top: 660px;
   left: 44px;
@@ -6,7 +6,7 @@
   height: 24px;
   overflow: hidden;
 }
-.footer,
+.footer5,
 .unidade-child {
   position: absolute;
   top: 3875.33px;
@@ -26,18 +26,18 @@
   top: 0;
   left: 0;
   width: 1920px;
-  height: 1279px;
+  height: 1281px;
   object-fit: cover;
 }
-.group-item {
+.group-child33 {
   top: 0;
   left: 0;
   border-radius: 49.3px;
   background-color: var(--color-white);
 }
-.group-item,
+.group-child33,
 .incio,
-.rectangle-group {
+.rectangle-parent17 {
   position: absolute;
   width: 306.67px;
   height: 69.02px;
@@ -50,14 +50,14 @@
   align-items: center;
   justify-content: center;
 }
-.rectangle-group {
+.rectangle-parent17 {
   top: 113px;
   left: 1369px;
   cursor: pointer;
   font-size: 29.58px;
   color: var(--color-gray);
 }
-.solarstar-bold-duotone {
+.solarstar-bold-duotone5 {
   position: absolute;
   top: 1057px;
   left: 1833.01px;
@@ -65,7 +65,7 @@
   height: 24px;
   overflow: hidden;
 }
-.vecteezy-restaurant-logo-food-icon {
+.vecteezy-restaurant-logo-food-icon10 {
   position: absolute;
   top: 0;
   left: 0;
@@ -163,7 +163,7 @@
   cursor: pointer;
   font-size: var(--font-size-xl);
 }
-.vecteezy-restaurant-logo-food-icon2 {
+.vecteezy-restaurant-logo-food-icon12 {
   position: absolute;
   height: 12.72%;
   width: 6.72%;

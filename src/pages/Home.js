@@ -1,4 +1,5 @@
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
+import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -6,19 +7,44 @@ import "./Home.css";
 const Home = () => {
   const navigate = useNavigate();
 
-  const onGroupContainerClick = useCallback(() => {
+  const onGroupButtonClick = useCallback(() => {
     navigate("/cardapio");
   }, [navigate]);
 
-  const onGroupContainer1Click = useCallback(() => {
-    navigate("/cardapio");
-  }, [navigate]);
+  useEffect(() => {
+    const scrollAnimElements = document.querySelectorAll(
+      "[data-animate-on-scroll]"
+    );
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting || entry.intersectionRatio > 0) {
+            const targetElement = entry.target;
+            targetElement.classList.add("animate");
+            observer.unobserve(targetElement);
+          }
+        }
+      },
+      {
+        threshold: 0.15,
+      }
+    );
+
+    for (let i = 0; i < scrollAnimElements.length; i++) {
+      observer.observe(scrollAnimElements[i]);
+    }
+
+    return () => {
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.unobserve(scrollAnimElements[i]);
+      }
+    };
+  }, []);
 
   return (
-    <div className="home">
+    <div className="home6">
       <img className="home-child" alt="" src="/vector-1.svg" />
       <div className="pedidos-direto-da">Pedidos direto da sala de aula!</div>
-      <div className="home-item" />
       <div className="faa-seu-pedido-container">
         <p className="faa-seu-pedido-pelo-site-ou-a">
           <span>
@@ -33,10 +59,21 @@ const Home = () => {
           fila quilométrica?
         </p>
       </div>
-      <div className="fazer-pedido-wrapper" onClick={onGroupContainerClick}>
-        <div className="fazer-pedido">Fazer Pedido</div>
-      </div>
-      <img className="image-1-icon" alt="" src="/image-1@2x.png" />
+      <Button
+        className="home-item"
+        sx={{ width: 273.3333435058594 }}
+        variant="contained"
+        color="primary"
+        onClick={onGroupButtonClick}
+      >
+        Fazer Pedido
+      </Button>
+      <img
+        className="image-1-icon"
+        alt=""
+        src="/image-1@2x.png"
+        data-animate-on-scroll
+      />
       <div className="fure-filas-desnecessrias">Fure filas desnecessárias.</div>
       <div className="realizando-o-pedido">
         Realizando o pedido pela nossa plataforma, você economiza o tempo gasto
@@ -44,8 +81,8 @@ const Home = () => {
         nos 5 minutos antes da aula acabar e retirar o seu lanche assim que sair
         da sala sem enfrentar nenhuma fila quilométrica?
       </div>
-      <div className="rectangle-parent" onClick={onGroupContainer1Click}>
-        <div className="group-child" />
+      <div className="rectangle-parent22">
+        <div className="group-child35" />
         <div className="fazer-o-meu">Fazer o meu pedido agora</div>
       </div>
       <img className="home-inner" alt="" src="/vector-2.svg" />

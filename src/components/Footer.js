@@ -1,14 +1,14 @@
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="footer2">
+    <div className="footer8">
       <img
-        className="vecteezy-restaurant-logo-food-icon6"
+        className="vecteezy-restaurant-logo-food-icon18"
         alt=""
-        src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced.svg"
+        src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced9.svg"
       />
-      <b className="fast-grill-1">FAST GRILL - IDP</b>
-      <div className="todos-os-direitos1">
+      <b className="fast-grill-6">FAST GRILL - IDP</b>
+      <div className="todos-os-direitos6">
         2023 - Todos os Direitos Reservados.
       </div>
     </div>

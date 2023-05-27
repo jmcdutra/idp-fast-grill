@@ -8,20 +8,31 @@ const Header = () => {
     navigate("/cardapio");
   }, [navigate]);
 
+  const onVectorIconClick = useCallback(() => {
+    navigate("/pagamentoforma");
+  }, [navigate]);
+
   return (
-    <div className="header1">
-      <b className="home2">Home</b>
-      <div className="cardpio2" onClick={onCardpioTextClick}>
+    <div className="header7">
+      <b className="home8">Home</b>
+      <div className="cardpio8" onClick={onCardpioTextClick}>
         Cardápio
       </div>
-      <div className="header-item" />
-      <div className="rea-do-cliente1">Área do Cliente</div>
+      <div className="rectangle-parent32">
+        <div className="group-child77" />
+        <div className="rea-do-cliente7">Área do Cliente</div>
+      </div>
       <img
-        className="vecteezy-restaurant-logo-food-icon7"
+        className="vecteezy-restaurant-logo-food-icon19"
         alt=""
-        src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced1.svg"
+        src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced11.svg"
       />
-      <img className="vector-icon4" alt="" src="/vector.svg" />
+      <img
+        className="vector-icon41"
+        alt=""
+        src="/vector11.svg"
+        onClick={onVectorIconClick}
+      />
     </div>
   );
 };

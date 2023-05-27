@@ -5,7 +5,7 @@ const Unidade = () => {
   const navigate = useNavigate();
 
   const onGroupContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/home");
   }, [navigate]);
 
   const onFrameContainer1Click = useCallback(() => {
@@ -18,18 +18,18 @@ const Unidade = () => {
 
   return (
     <div className="unidade">
-      <div className="fluentbox-24-filled" />
-      <div className="footer" />
+      <div className="fluentbox-24-filled5" />
+      <div className="footer5" />
       <div className="unidade-child" />
       <img className="unidade-item" alt="" src="/frame-43@2x.png" />
-      <div className="rectangle-group" onClick={onGroupContainerClick}>
-        <div className="group-item" />
+      <div className="rectangle-parent17" onClick={onGroupContainerClick}>
+        <div className="group-child33" />
         <div className="incio">Início</div>
       </div>
-      <div className="solarstar-bold-duotone" />
+      <div className="solarstar-bold-duotone5" />
       <div className="vecteezy-restaurant-logo-food-parent">
         <img
-          className="vecteezy-restaurant-logo-food-icon"
+          className="vecteezy-restaurant-logo-food-icon10"
           alt=""
           src="/vecteezy-restaurantlogofoodlogo-5386195-2@2x.png"
         />
@@ -48,7 +48,7 @@ const Unidade = () => {
       </div>
       <div className="vecteezy-restaurant-logo-food-group">
         <img
-          className="vecteezy-restaurant-logo-food-icon"
+          className="vecteezy-restaurant-logo-food-icon10"
           alt=""
           src="/vecteezy-restaurantlogofoodlogo-5386195-2@2x.png"
         />
@@ -66,9 +66,9 @@ const Unidade = () => {
         <b className="selecionar-unidade">Selecionar unidade</b>
       </div>
       <img
-        className="vecteezy-restaurant-logo-food-icon2"
+        className="vecteezy-restaurant-logo-food-icon12"
         alt=""
-        src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced2.svg"
+        src="/vecteezy-restaurantlogofoodlogo-5386195-1-traced21.svg"
       />
     </div>
   );
