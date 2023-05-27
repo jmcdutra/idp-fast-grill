@@ -1,6 +1,6 @@
 
   # FastGrill IDP
-https://vercel.com/dutraxz/idp-fast-grill
+https://idp-fast-grill.vercel.app/home
 Cálculo de tempo médio:
 
 ```js
